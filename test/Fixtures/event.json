@@ -1,0 +1,44 @@
+{
+  "data": {
+    "api_version": "2018-03-22",
+    "created_at": "2018-07-24T07:48:42Z",
+    "data": {
+      "id": "488fcbd5-eb82-42dc-8a2b-10fdf70e0bfe",
+      "code": "7C7V5ECK",
+      "name": "",
+      "metadata": {
+        "customer_id": "id_1005",
+        "customer_name": "Satoshi Nakamoto"
+      },
+      "payments": [],
+      "resource": "charge",
+      "timeline": [
+        {
+          "time": "2018-07-24T07:33:35Z",
+          "status": "NEW"
+        },
+        {
+          "time": "2018-07-24T07:48:42Z",
+          "status": "EXPIRED"
+        }
+      ],
+      "addresses": {
+        "bitcoin": "19avEyazocv3akrgqduZo3YuRAX3zBdpVb",
+        "ethereum": "0xb7c3d09c20708b9311b762963c30614bae67bc7d",
+        "litecoin": "LZyL8p4hJWMp8gdCoCmgRfp929PWjKJi6Q",
+        "bitcoincash": "qqaktceq6mml6sa5yzgd9ya68x04kgphquf3ewn4ee"
+      },
+      "created_at": "2018-07-24T07:33:35Z",
+      "expires_at": "2018-07-24T07:48:35Z",
+      "hosted_url": "https://commerce.coinbase.com/charges/7C7V5ECK",
+      "description": "Mastering the Transition to the Information Age",
+      "pricing_type": "no_price"
+    },
+    "id": "cce71734-b624-49ae-bd31-edd59379cbe5",
+    "resource": "event",
+    "type": "charge:failed"
+  },
+  "warnings": [
+    "Missing X-CC-Version header; serving latest API version (2018-03-22)"
+  ]
+}
