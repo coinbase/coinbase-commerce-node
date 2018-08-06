@@ -1,0 +1,11 @@
+{
+    "name": "resources-example-coinbase-commerce-node",
+    "version": "1.0.0",
+    "description": "Examples for coinbase commerce",
+    "scripts": {},
+    "author": "Coinbase",
+    "license": "MIT",
+    "dependencies": {
+        "coinbase-commerce-node": "^1.0.1"
+    }
+}

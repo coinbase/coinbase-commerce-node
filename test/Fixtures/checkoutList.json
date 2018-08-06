@@ -1,0 +1,48 @@
+{
+  "pagination": {
+    "order": "asc",
+    "starting_after": null,
+    "ending_before": null,
+    "total": 4,
+    "limit": 2,
+    "yielded": 2,
+    "cursor_range": [
+      "911fb68e-f410-4f55-8925-0d587b323fe5",
+      "427f6dea-1421-4c3e-8f3e-75b49fc4e953"
+    ],
+    "previous_uri": "https://api.commerce.coinbase.com/checkouts?ending_before=911fb68e-f410-4f55-8925-0d587b323fe5&limit=2&order=asc",
+    "next_uri": "https://api.commerce.coinbase.com/checkouts?limit=2&order=asc&starting_after=427f6dea-1421-4c3e-8f3e-75b49fc4e953"
+  },
+  "data": [
+    {
+      "description": "Mastering the Transition to the Information Age",
+      "id": "911fb68e-f410-4f55-8925-0d587b323fe5",
+      "local_price": {
+        "amount": "100.00",
+        "currency": "USD"
+      },
+      "logo_url": "https://res.cloudinary.com/commerce/image/upload/v1530798795/yeqozrmhnhk8vzh7wspb.png",
+      "name": "test item 15 edited",
+      "pricing_type": "fixed_price",
+      "requested_info": [
+        "email"
+      ],
+      "resource": "checkout"
+    },
+    {
+      "description": "Description",
+      "id": "427f6dea-1421-4c3e-8f3e-75b49fc4e953",
+      "local_price": {
+        "amount": "1.00",
+        "currency": "USD"
+      },
+      "logo_url": "https://res.cloudinary.com/commerce/image/upload/v1530619006/xixsrkw8fhogkrykmujq.jpg",
+      "name": "Test2",
+      "pricing_type": "fixed_price",
+      "requested_info": [
+        "email"
+      ],
+      "resource": "checkout"
+    }
+  ]
+}

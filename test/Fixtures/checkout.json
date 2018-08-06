@@ -1,0 +1,18 @@
+{
+  "data": {
+    "created_at": "2018-07-26T16:19:37Z",
+    "description": "test description",
+    "id": "4b830904-f4c5-4c22-8bec-062fcd643921",
+    "local_price": {
+      "amount": "100.00",
+      "currency": "USD"
+    },
+    "name": "Test Name",
+    "pricing_type": "fixed_price",
+    "requested_info": [
+      "email"
+    ],
+    "resource": "checkout",
+    "updated_at": "2018-07-26T16:20:15Z"
+  }
+}
