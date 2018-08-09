@@ -1,0 +1,10 @@
+# Ignore everything
+*
+# Except this files
+!/CHANGELOG.md
+!/LICENSE
+!/README.md
+!/VERSION
+!/package.json
+!/lib/**/*
+!/index.js

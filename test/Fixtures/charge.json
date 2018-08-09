@@ -1,0 +1,34 @@
+{
+  "data": {
+    "addresses": {
+      "bitcoin": "19avEyazocv3akrgqduZo3YuRAX3zBdpVb",
+      "litecoin": "LZyL8p4hJWMp8gdCoCmgRfp929PWjKJi6Q",
+      "bitcoincash": "qqaktceq6mml6sa5yzgd9ya68x04kgphquf3ewn4ee",
+      "ethereum": "0xb7c3d09c20708b9311b762963c30614bae67bc7d"
+    },
+    "code": "7C7V5ECK",
+    "created_at": "2018-07-24T07:33:35Z",
+    "description": "Mastering the Transition to the Information Age",
+    "expires_at": "2018-07-24T07:48:35Z",
+    "hosted_url": "https://commerce.coinbase.com/charges/7C7V5ECK",
+    "id": "488fcbd5-eb82-42dc-8a2b-10fdf70e0bfe",
+    "metadata": {
+      "customer_id": "id_1005",
+      "customer_name": "Satoshi Nakamoto"
+    },
+    "name": "Test Name",
+    "payments": [],
+    "pricing_type": "no_price",
+    "resource": "charge",
+    "timeline": [
+      {
+        "status": "NEW",
+        "time": "2018-07-24T07:33:35Z"
+      },
+      {
+        "status": "EXPIRED",
+        "time": "2018-07-24T07:48:42Z"
+      }
+    ]
+  }
+}

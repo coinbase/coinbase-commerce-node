@@ -1,0 +1,82 @@
+{
+  "pagination": {
+    "order": "desc",
+    "starting_after": null,
+    "ending_before": null,
+    "total": 3,
+    "limit": 2,
+    "yielded": 2,
+    "cursor_range": [
+      "488fcbd5-eb82-42dc-8a2b-10fdf70e0bfe",
+      "e1506c50-835b-46af-9ee5-b9edd4032b26"
+    ],
+    "previous_uri": "https://api.commerce.coinbase.com/charges?ending_before=488fcbd5-eb82-42dc-8a2b-10fdf70e0bfe&limit=2",
+    "next_uri": "https://api.commerce.coinbase.com/charges?limit=2&starting_after=e1506c50-835b-46af-9ee5-b9edd4032b26"
+  },
+  "data": [
+    {
+      "addresses": {
+        "bitcoin": "19avEyazocv3akrgqduZo3YuRAX3zBdpVb",
+        "litecoin": "LZyL8p4hJWMp8gdCoCmgRfp929PWjKJi6Q",
+        "bitcoincash": "qqaktceq6mml6sa5yzgd9ya68x04kgphquf3ewn4ee",
+        "ethereum": "0xb7c3d09c20708b9311b762963c30614bae67bc7d"
+      },
+      "code": "7C7V5ECK",
+      "created_at": "2018-07-24T07:33:35Z",
+      "description": "Mastering the Transition to the Information Age",
+      "expires_at": "2018-07-24T07:48:35Z",
+      "hosted_url": "https://commerce.coinbase.com/charges/7C7V5ECK",
+      "id": "488fcbd5-eb82-42dc-8a2b-10fdf70e0bfe",
+      "metadata": {
+        "customer_id": "id_1005",
+        "customer_name": "Satoshi Nakamoto"
+      },
+      "name": "",
+      "payments": [],
+      "pricing_type": "no_price",
+      "resource": "charge",
+      "timeline": [
+        {
+          "status": "NEW",
+          "time": "2018-07-24T07:33:35Z"
+        },
+        {
+          "status": "EXPIRED",
+          "time": "2018-07-24T07:48:42Z"
+        }
+      ]
+    },
+    {
+      "addresses": {
+        "bitcoin": "12bD8tX5fX4Gc9ZVAsa1wz59FFCNJphk2H",
+        "litecoin": "Lc41gtgfc4XUZW8o9E9FZXy2QhdVX56JKs",
+        "bitcoincash": "qz9vknvvaxlta2m5shzgxszkkq3jqd9kwg0vquqff3",
+        "ethereum": "0x920c9615c9f6875a7ba7c15acef88470b6d7b3ef"
+      },
+      "code": "P8NRFAGF",
+      "created_at": "2018-07-05T07:55:44Z",
+      "description": "Mastering the Transition to the Information Age",
+      "expires_at": "2018-07-05T08:10:44Z",
+      "hosted_url": "https://commerce.coinbase.com/charges/P8NRFAGF",
+      "id": "e1506c50-835b-46af-9ee5-b9edd4032b26",
+      "metadata": {
+        "customer_id": "id_1005",
+        "customer_name": "Satoshi Nakamoto"
+      },
+      "name": "The Sovereign Individual",
+      "payments": [],
+      "pricing_type": "no_price",
+      "resource": "charge",
+      "timeline": [
+        {
+          "status": "NEW",
+          "time": "2018-07-05T07:55:44Z"
+        },
+        {
+          "status": "EXPIRED",
+          "time": "2018-07-05T08:10:50Z"
+        }
+      ]
+    }
+  ]
+}

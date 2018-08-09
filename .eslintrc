@@ -1,0 +1,19 @@
+{
+    "rules": {
+        "quotes": [
+            2,
+            "single"
+        ],
+        "semi": [
+            2,
+            "always"
+        ],
+        "new-cap": "off",
+        "camelcase": "off"
+    },
+    "env": {
+        "node": true, 
+	    "mocha": true
+    },
+    "extends": "eslint:recommended"
+}
