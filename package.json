@@ -1,7 +1,7 @@
 {
   "name": "coinbase-commerce-node",
   "version": "1.0.0",
-  "description": "coinbase commerce node.js official sdk client",
+  "description": "The Official Coinbase Commerce SDK for Node.js",
   "keywords": [
     "API",
     "bitcoin",
@@ -9,6 +9,11 @@
     "commerce",
     "payments"
   ],
+  "homepage": "https://github.com/coinbase/coinbase-commerce-node",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coinbase/coinbase-commerce-node.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --recursive",
