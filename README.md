@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/adobrzhansky/coinbase-commerce-node.svg?style=svg)](https://circleci.com/gh/adobrzhansky/coinbase-commerce-node)
+[![CircleCI](https://circleci.com/gh/coinbase/coinbase-commerce-node.svg?style=svg)](https://circleci.com/gh/coinbase/coinbase-commerce-node)
 # Coinbase Commerce
 
 The official Node.js library for the [Coinbase Commerce API](https://commerce.coinbase.com/docs/).
