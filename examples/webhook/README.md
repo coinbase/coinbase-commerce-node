@@ -6,7 +6,7 @@ node webhook.js
 ```
 
 Make your server externally accessible.
-For testing purpose, you can install  [ngrock](https://ngrok.com/) and run:
+For testing purpose, you can install  [ngrok](https://ngrok.com/) and run:
 
 ``` sh
 ngrok http 3000
