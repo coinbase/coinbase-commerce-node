@@ -318,7 +318,7 @@ You can find a simple example of how to use this with Express in the [`examples/
 var Webhook = require('coinbase-commerce-node').Webhook;
 
 try {
-    Webhook.verifySigHeader(signature, body, sharedSecret);
+    Webhook.verifySigHeader(rawBody, signature, sharedSecret);
     console.log('Successfully verified');
 } catch(error) {
     console.log('Failed');
