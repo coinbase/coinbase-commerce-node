@@ -63,6 +63,11 @@ Install with ``npm``:
 ``` sh
 npm install coinbase-commerce-node --save
 ```
+
+Type definitions are available for TypeScript users:
+```sh
+npm install @types/coinbase-commerce-node --save-dev
+```
 ## Usage
 ``` js
 var coinbase = require('coinbase-commerce-node');
