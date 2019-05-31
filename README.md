@@ -86,9 +86,9 @@ var Checkout = coinbase.resources.Checkout;
 ```
 ### Retrieve
 ``` js
-Checkout.retrieve(<checkout_id>, function (error, callback) {
+Checkout.retrieve(<checkout_id>, function (error, response) {
   console.log(error);
-  console.log(callback);
+  console.log(response);
 });
 ```
 ### Create
@@ -103,9 +103,9 @@ var checkoutData = {
     },
     'requested_info': ['name', 'email']
 };
-Checkout.create(checkoutData, function (error, callback) {
+Checkout.create(checkoutData, function (error, response) {
   console.log(error);
-  console.log(callback);
+  console.log(response);
 });
 
 // or
@@ -121,9 +121,9 @@ checkoutObj.local_price = {
 };
 checkoutObj.requested_info = ['name', 'email'];
 
-checkoutObj.save(function (error, callback) {
+checkoutObj.save(function (error, response) {
   console.log(error);
-  console.log(callback);
+  console.log(response);
 });
 ```
 ### Update
