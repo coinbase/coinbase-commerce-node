@@ -9,6 +9,10 @@
     "commerce",
     "payments"
   ],
+  "engines": {
+    "node": ">=8.17.0",
+    "npm": ">=5.6.0"
+  },
   "homepage": "https://github.com/coinbase/coinbase-commerce-node",
   "repository": {
     "type": "git",
