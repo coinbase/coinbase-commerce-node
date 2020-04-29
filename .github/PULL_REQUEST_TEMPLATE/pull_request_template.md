@@ -1,35 +1,53 @@
-**Type of change**
+<!---
+PR TITLE: Please name your pull request according to this format: [type] short summary. Examples:
 
-<!--- Please delete options that are not relevant. --->
-- Bug fix (non-breaking change which fixes an issue)
-- New feature (non-breaking change which adds functionality)
-- Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- This change requires a documentation update
+> [bugfix] added callback function to charge example.
+> [feature] enabled refunds event signature.
+> [chore] updated docs with webhooks instructions.
+--->
 
-**Description**
+**Issue:** <link>
 
-<!--- Replace this comment with:
-- a summary of the change, including any relevant motivation or context. --->
+<!---
+IMPORTANT: Please do not create a Pull Request without creating an issue first. Replace <link> with the url link to the issue.
+--->
 
-**How have you tested this change?**
+**Type:** <type>
 
-<!--- Replace this comment with:
-- a description of how you verified your changes,
-- instructions so others can reproduce,
-- and any configuration details. --->
+<!---
+Same as in title, replace <type> with one of the following options: bugfix | feature | chore
 
-**Configuration**
+> bugfix: a change which fixes an issue.
+> feature: a change which adds functionality.
+> chore: doc updates, dependencies, refactor, etc.
+--->
 
-<!--- Please update versions based on your use (run `node -v` and `npm -v`). --->
-* Node.js version: 10.15.1
-* NPM version: 6.9.0
+**Description:** <description>
 
-<!--- Please ensure you have done the following:
-- I have performed a self-review of my own code
-- I have commented my code, particularly in hard-to-understand areas
-- I have made corresponding changes to the documentation
-- My changes generate no new warnings
-- I have added tests that prove my fix is effective or that my feature works
-- New and existing unit tests pass locally with my changes
-- Any dependent changes have been merged and published in downstream modules
+<!---
+Replace <description> with a detailed summary of the change, including any relevant context to avoid follow-up questions.
+--->
+
+**Testing:** <testing>
+
+<!---
+Replace <testing> with a description of how you've tested/ verified your changes.
+--->
+
+**Configuration:**
+
+<!---
+Replace <version> based on your environment (run `node -v` and `npm -v`).
+--->
+* Node.js version: <version>
+* NPM version: <version>
+
+<!---
+CHECKLIST: Please ensure you have done the following.
+> 1. I have performed a self-review of my own code.
+> 2. I have commented my code, particularly in hard-to-understand areas.
+> 3. I have made relevant changes to the documentation.
+> 4. My changes generate no new warnings.
+> 5. I have added any tests that prove my fix is effective or that my feature works.
+> 6. New and existing unit tests pass locally with my changes.
 --->
