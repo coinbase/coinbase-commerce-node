@@ -6,7 +6,7 @@
 var Express = require('express');
 var Webhook = require('coinbase-commerce-node').Webhook;
 /**
- * Past your webhook secret from Settings/Webhook section
+ * Paste your webhook secret from Settings/Webhook section
  */
 var webhookSecret = 'YOUR_WEBHOOK';
 var router = Express.Router();
