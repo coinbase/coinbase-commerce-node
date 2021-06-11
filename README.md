@@ -1,5 +1,6 @@
 [![CircleCI](https://circleci.com/gh/coinbase/coinbase-commerce-node.svg?style=svg)](https://circleci.com/gh/coinbase/coinbase-commerce-node)
 # Coinbase Commerce
+**Note: This repository is not actively maintained.**
 
 The official Node.js library for the [Coinbase Commerce API](https://commerce.coinbase.com/docs/).
 
