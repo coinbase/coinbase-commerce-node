@@ -27,7 +27,7 @@
   "author": "Coinbase",
   "license": "MIT",
   "dependencies": {
-    "lodash": "4.17.19",
+    "lodash": "4.17.21",
     "object-assign": "2.0.0",
     "promise": "^8.0.1",
     "request": "^2.88.2",
