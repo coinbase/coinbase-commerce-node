@@ -188,6 +188,50 @@ describe('Methods', function () {
 		});
 	});
 
+	it('cancelById method test', function (done) {
+		var method = require('../lib/Methods/CancelByIdMethod');
+		var id = '488fcbd5-eb82-42dc-8a2b-10fdf70e0bfe';
+
+		helpers.registerRequest('POST', '/charges/' + id + '/cancel', 200, '', 2);
+
+		// Run with callback
+		method.cancelById.call(Charge, id, function (error, response) {
+			assert.instanceOf(response, Charge);
+		});
+
+		// Run with promise
+		method.cancelById.call(Charge, id).then(function (response) {
+			assert.instanceOf(response, Charge);
+			done();
+		});
+	});
+
+	it('cancelById method test failed', function (done) {
+		var method = require('../lib/Methods/CancelByIdMethod');
+		var id = '488fcbd5-eb82-42dc-8a2b-10fdf70e0bfe';
+		var responseData = JSON.stringify({
+			'error': {
+				'type': 'internal_server_error',
+				'message': 'Internal server error'
+			}
+		});
+
+		helpers.registerRequest('POST', '/charges/' + id + '/cancel', 500, responseData, 2);
+
+		// Run with callback
+		method.cancelById.call(Charge, id, function (error) {
+			assert.instanceOf(error, InternalServerError);
+		});
+
+		// Run with promise
+		method.cancelById.call(Charge, id).then(function () {
+
+		}, function (error) {
+			assert.instanceOf(error, InternalServerError);
+			done();
+		});
+	});
+
 	it('deleteById method test', function (done) {
 		var method = require('../lib/Methods/DeleteByIdMethod');
 		var id = '4b830904-f4c5-4c22-8bec-062fcd643921';
