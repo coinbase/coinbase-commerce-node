@@ -1,8 +1,8 @@
 [![CircleCI](https://circleci.com/gh/coinbase/coinbase-commerce-node.svg?style=svg)](https://circleci.com/gh/coinbase/coinbase-commerce-node)
 # Coinbase Commerce
-**Note: This repository is not actively maintained.**
+**Caution: This repository is deprecated and not actively maintained.**
 
-The official Node.js library for the [Coinbase Commerce API](https://commerce.coinbase.com/docs/).
+The official Node.js library for the [Coinbase Commerce API](https://docs.cloud.coinbase.com/commerce/docs).
 
 # Table of contents
 
@@ -22,7 +22,7 @@ The official Node.js library for the [Coinbase Commerce API](https://commerce.co
 Node.js v0.10.48 and above are supported.
 
 ## Documentation
-For more details visit [Coinbase API docs](https://commerce.coinbase.com/docs/api/).
+For more details visit [Coinbase API docs](https://docs.cloud.coinbase.com/commerce/reference/getcharges).
 
 To start using this library register an account on [Coinbase Commerce](https://commerce.coinbase.com/signup).
 You will find your ``API_KEY`` from User Settings.
@@ -77,7 +77,7 @@ var Client = coinbase.Client;
 Client.init('API_KEY');
 ```
 ## Checkouts 
-[Checkouts API docs](https://commerce.coinbase.com/docs/api/#checkouts)
+[Checkouts API docs](https://docs.cloud.coinbase.com/commerce/reference/getcheckouts)
 More examples on how to use checkouts can be found in the [`examples/resources/checkout.js`](examples/resources/checkout.js) file
 
 ### Load checkout resource class
@@ -191,7 +191,7 @@ Checkout.all(params, function (error, list) {
 
 ```
 ## Charges
-[Charges API docs](https://commerce.coinbase.com/docs/api/#charges)
+[Charges API docs](https://docs.cloud.coinbase.com/commerce/reference/getcharges)
 More examples on how to use charges can be found in the [`examples/resources/charge.js`](examples/resources/charge.js) file
 
 ### Load charge resource class
@@ -254,7 +254,7 @@ Charge.all({}, function (error, list) {
 });
 ```
 ## Events
-[Events API Docs](https://commerce.coinbase.com/docs/api/#events)
+[Events API Docs](https://docs.cloud.coinbase.com/commerce/reference/getevents)
 More examples on how to use events can be found in the [`examples/resources/event.js`](examples/resources/event.js) file
 
 ### Load event resource class
